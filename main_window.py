@@ -1,4 +1,4 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtWidgets
 from ui_main_window import Ui_MainWindow
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
@@ -6,7 +6,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
 
-        self.myButton.clicked.connect(self.myButtonClicked)
+        self.myButton.clicked.connect(self.my_button_clicked)
 
-    def myButtonClicked(self, remark):
+    def my_button_clicked(self):
         self._infoLabel.setText("Hello World")

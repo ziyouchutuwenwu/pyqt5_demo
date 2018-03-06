@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui_main_window.ui'
 #
-# Created by: PyQt5 UI code generator 5.10.1
+# Created by: PyQt5 UI code generator 5.10
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -18,7 +18,8 @@ class Ui_MainWindow(object):
         self.myButton.setGeometry(QtCore.QRect(240, 190, 75, 23))
         self.myButton.setObjectName("myButton")
         self._infoLabel = QtWidgets.QLabel(self.centralwidget)
-        self._infoLabel.setGeometry(QtCore.QRect(250, 90, 54, 12))
+        self._infoLabel.setGeometry(QtCore.QRect(190, 90, 161, 71))
+        self._infoLabel.setAlignment(QtCore.Qt.AlignCenter)
         self._infoLabel.setObjectName("_infoLabel")
         MainWindow.setCentralWidget(self.centralwidget)
 
