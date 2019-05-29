@@ -2,11 +2,12 @@
 
 # Form implementation generated from reading ui file 'ui_main_window.ui'
 #
-# Created by: PyQt5 UI code generator 5.10.1
+# Created by: PyQt5 UI code generator 5.12.2
 #
 # WARNING! All changes made in this file will be lost!
-from PyQt5 import QtWebEngineWidgets
+
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -18,10 +19,6 @@ class Ui_MainWindow(object):
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
-        self._webView = QtWebEngineWidgets.QWebEngineView(self.centralwidget)
-        self._webView.setUrl(QtCore.QUrl("about:blank"))
-        self._webView.setObjectName("_webView")
-        self.verticalLayout.addWidget(self._webView)
         self._infoLabel = QtWidgets.QLabel(self.centralwidget)
         self._infoLabel.setAlignment(QtCore.Qt.AlignCenter)
         self._infoLabel.setObjectName("_infoLabel")
@@ -40,3 +37,5 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self._infoLabel.setText(_translate("MainWindow", "TextLabel"))
         self.myButton.setText(_translate("MainWindow", "PushButton"))
+
+
