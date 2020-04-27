@@ -2,9 +2,10 @@
 
 # Form implementation generated from reading ui file 'ui_main_window.ui'
 #
-# Created by: PyQt5 UI code generator 5.12.2
+# Created by: PyQt5 UI code generator 5.14.2
 #
 # WARNING! All changes made in this file will be lost!
+
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -23,9 +24,9 @@ class Ui_MainWindow(object):
         self._infoLabel.setAlignment(QtCore.Qt.AlignCenter)
         self._infoLabel.setObjectName("_infoLabel")
         self.verticalLayout.addWidget(self._infoLabel)
-        self.myButton = QtWidgets.QPushButton(self.centralwidget)
-        self.myButton.setObjectName("myButton")
-        self.verticalLayout.addWidget(self.myButton)
+        self.demo_button = QtWidgets.QPushButton(self.centralwidget)
+        self.demo_button.setObjectName("demo_button")
+        self.verticalLayout.addWidget(self.demo_button)
         self.horizontalLayout.addLayout(self.verticalLayout)
         MainWindow.setCentralWidget(self.centralwidget)
 
@@ -36,6 +37,4 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self._infoLabel.setText(_translate("MainWindow", "TextLabel"))
-        self.myButton.setText(_translate("MainWindow", "PushButton"))
-
-
+        self.demo_button.setText(_translate("MainWindow", "PushButton"))
