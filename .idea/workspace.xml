@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47b4d9e-b7b7-4ef6-bac3-b31977266329" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo_thread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyqt5_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyqt5_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_main_window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_main_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui_main_window.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui_main_window.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,30 +80,38 @@
       <screen x="0" y="31" width="1366" height="688" />
     </state>
     <state x="92" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1366.688@0.31.1366.688" timestamp="1587948416133" />
+    <state x="245" y="178" width="770" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588594620886">
+      <screen x="0" y="31" width="1366" height="688" />
+    </state>
+    <state x="245" y="178" width="770" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.31.1366.688@0.31.1366.688" timestamp="1588594620886" />
     <state x="379" y="209" width="493" height="338" key="#com.intellij.tools.ToolEditorDialog" timestamp="1587949993613">
       <screen x="0" y="31" width="1366" height="688" />
     </state>
     <state x="379" y="209" width="493" height="338" key="#com.intellij.tools.ToolEditorDialog/0.31.1366.688@0.31.1366.688" timestamp="1587949993613" />
-    <state width="1246" height="264" key="GridCell.Tab.0.bottom" timestamp="1587950182782">
+    <state width="1246" height="264" key="GridCell.Tab.0.bottom" timestamp="1588597273078">
       <screen x="0" y="31" width="1366" height="688" />
     </state>
-    <state width="1246" height="264" key="GridCell.Tab.0.bottom/0.31.1366.688@0.31.1366.688" timestamp="1587950182782" />
-    <state width="1246" height="264" key="GridCell.Tab.0.center" timestamp="1587950182781">
+    <state width="1246" height="264" key="GridCell.Tab.0.bottom/0.31.1366.688@0.31.1366.688" timestamp="1588597273078" />
+    <state width="1246" height="264" key="GridCell.Tab.0.center" timestamp="1588597273077">
       <screen x="0" y="31" width="1366" height="688" />
     </state>
-    <state width="1246" height="264" key="GridCell.Tab.0.center/0.31.1366.688@0.31.1366.688" timestamp="1587950182781" />
-    <state width="1246" height="264" key="GridCell.Tab.0.left" timestamp="1587950182780">
+    <state width="1246" height="264" key="GridCell.Tab.0.center/0.31.1366.688@0.31.1366.688" timestamp="1588597273077" />
+    <state width="1246" height="264" key="GridCell.Tab.0.left" timestamp="1588597273077">
       <screen x="0" y="31" width="1366" height="688" />
     </state>
-    <state width="1246" height="264" key="GridCell.Tab.0.left/0.31.1366.688@0.31.1366.688" timestamp="1587950182780" />
-    <state width="1246" height="264" key="GridCell.Tab.0.right" timestamp="1587950182781">
+    <state width="1246" height="264" key="GridCell.Tab.0.left/0.31.1366.688@0.31.1366.688" timestamp="1588597273077" />
+    <state width="1246" height="264" key="GridCell.Tab.0.right" timestamp="1588597273077">
       <screen x="0" y="31" width="1366" height="688" />
     </state>
-    <state width="1246" height="264" key="GridCell.Tab.0.right/0.31.1366.688@0.31.1366.688" timestamp="1587950182781" />
+    <state width="1246" height="264" key="GridCell.Tab.0.right/0.31.1366.688@0.31.1366.688" timestamp="1588597273077" />
     <state x="168" y="31" width="924" height="688" key="SettingsEditor" timestamp="1587949994544">
       <screen x="0" y="31" width="1366" height="688" />
     </state>
     <state x="168" y="31" width="924" height="688" key="SettingsEditor/0.31.1366.688@0.31.1366.688" timestamp="1587949994544" />
+    <state x="314" y="121" width="641" height="508" key="find.popup" timestamp="1588597160524">
+      <screen x="0" y="31" width="1366" height="688" />
+    </state>
+    <state x="314" y="121" width="641" height="508" key="find.popup/0.31.1366.688@0.31.1366.688" timestamp="1588597160524" />
   </component>
   <component name="masterDetails">
     <states>
