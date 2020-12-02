@@ -20,6 +20,6 @@ class DemoThread(QThread):
     def run(self):
         self._start_signal.emit()
 
-        time.sleep(5)
+        time.sleep(2)
 
         self._finish_signal.emit("ok")
