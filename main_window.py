@@ -1,3 +1,4 @@
+import PyQt5.QtGui
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QUrl, PYQT_VERSION_STR
 from demo_thread import DemoThread
@@ -7,6 +8,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
+
+        self.setWindowIcon(PyQt5.QtGui.QIcon('./res/ico.ico'))
 
         self._demo_thread = DemoThread()
         self._demo_button.clicked.connect(self.on_demo_button_clicked)
