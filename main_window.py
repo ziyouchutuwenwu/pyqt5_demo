@@ -1,6 +1,8 @@
 import PyQt5.QtGui
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QUrl, PYQT_VERSION_STR
+
+import webview_intercepter
 from demo_thread import DemoThread
 from ui_main_window import Ui_MainWindow
 
@@ -9,10 +11,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
 
-        self.setWindowIcon(PyQt5.QtGui.QIcon('./res/ico.ico'))
+        self.setWindowIcon(PyQt5.QtGui.QIcon('./res/ico.png'))
 
         self._demo_thread = DemoThread()
         self._demo_button.clicked.connect(self.on_demo_button_clicked)
+
+        # 使用self引用，防止gc
+        self._intercepter = webview_intercepter.WebEngineUrlRequestInterceptor()
+        self._webview.page().profile().setUrlRequestInterceptor(self._intercepter)
 
         self._load_webview_button.clicked.connect(self.on_webview_button_clicked)
 

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47b4d9e-b7b7-4ef6-bac3-b31977266329" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/ico.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pyqt5_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyqt5_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.py" afterDir="false" />
     </list>
@@ -27,9 +29,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="myAttachToSubprocess" value="false" />
+    <option name="mySupportQtDebugging" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -37,7 +46,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqt5_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,6 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -75,46 +85,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559173182334</updated>
+      <workItem from="1606983861980" duration="583000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1281" height="245" key="GridCell.Tab.0.bottom" timestamp="1606912965521">
-      <screen x="0" y="31" width="1366" height="688" />
-    </state>
-    <state width="1281" height="245" key="GridCell.Tab.0.bottom/0.31.1366.688@0.31.1366.688" timestamp="1606912965521" />
-    <state width="1281" height="245" key="GridCell.Tab.0.center" timestamp="1606912965520">
-      <screen x="0" y="31" width="1366" height="688" />
-    </state>
-    <state width="1281" height="245" key="GridCell.Tab.0.center/0.31.1366.688@0.31.1366.688" timestamp="1606912965520" />
-    <state width="1281" height="245" key="GridCell.Tab.0.left" timestamp="1606912965520">
-      <screen x="0" y="31" width="1366" height="688" />
-    </state>
-    <state width="1281" height="245" key="GridCell.Tab.0.left/0.31.1366.688@0.31.1366.688" timestamp="1606912965520" />
-    <state width="1281" height="245" key="GridCell.Tab.0.right" timestamp="1606912965520">
-      <screen x="0" y="31" width="1366" height="688" />
-    </state>
-    <state width="1281" height="245" key="GridCell.Tab.0.right/0.31.1366.688@0.31.1366.688" timestamp="1606912965520" />
-    <state width="1281" height="197" key="GridCell.Tab.1.bottom" timestamp="1606908367220">
-      <screen x="0" y="31" width="1366" height="688" />
-    </state>
-    <state width="1281" height="197" key="GridCell.Tab.1.bottom/0.31.1366.688@0.31.1366.688" timestamp="1606908367220" />
-    <state width="1281" height="197" key="GridCell.Tab.1.center" timestamp="1606908367219">
-      <screen x="0" y="31" width="1366" height="688" />
-    </state>
-    <state width="1281" height="197" key="GridCell.Tab.1.center/0.31.1366.688@0.31.1366.688" timestamp="1606908367219" />
-    <state width="1281" height="197" key="GridCell.Tab.1.left" timestamp="1606908367219">
-      <screen x="0" y="31" width="1366" height="688" />
-    </state>
-    <state width="1281" height="197" key="GridCell.Tab.1.left/0.31.1366.688@0.31.1366.688" timestamp="1606908367219" />
-    <state width="1281" height="197" key="GridCell.Tab.1.right" timestamp="1606908367219">
-      <screen x="0" y="31" width="1366" height="688" />
-    </state>
-    <state width="1281" height="197" key="GridCell.Tab.1.right/0.31.1366.688@0.31.1366.688" timestamp="1606908367219" />
-    <state x="186" y="31" width="924" height="688" key="SettingsEditor" timestamp="1606906450823">
-      <screen x="0" y="31" width="1366" height="688" />
-    </state>
-    <state x="186" y="31" width="924" height="688" key="SettingsEditor/0.31.1366.688@0.31.1366.688" timestamp="1606906450823" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pyqt5_demo$main.coverage" NAME="main Coverage Results" MODIFIED="1606985626421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyqt5_demo$aa.coverage" NAME="aa Coverage Results" MODIFIED="1606985171195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
     <states>
