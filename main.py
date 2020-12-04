@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
 from PyQt5 import QtWidgets
 from custom_ui.main_window import MainWindow
 import sys

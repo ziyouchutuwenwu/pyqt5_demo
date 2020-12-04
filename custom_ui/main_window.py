@@ -1,9 +1,10 @@
-import os
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
 
+import os
 import PyQt5.QtGui
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QUrl, PYQT_VERSION_STR
-
 from custom_ui import webview_intercepter
 from demo_thread import DemoThread
 from ui.ui_main_window import Ui_MainWindow
