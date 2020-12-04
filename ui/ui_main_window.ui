@@ -20,7 +20,7 @@
       <item>
        <layout class="QVBoxLayout" name="_left_layout">
         <item>
-         <widget class="QWebEngineView" name="_webview" native="true"/>
+         <widget class="WebEngineView" name="_webview" native="true"/>
         </item>
         <item>
          <spacer name="horizontalSpacer">
@@ -72,9 +72,9 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>QWebEngineView</class>
+   <class>WebEngineView</class>
    <extends>QWidget</extends>
-   <header>qwebengineview.h</header>
+   <header>custom_ui.webview</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

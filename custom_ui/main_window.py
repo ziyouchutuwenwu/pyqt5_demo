@@ -1,17 +1,20 @@
+import os
+
 import PyQt5.QtGui
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import QUrl, PYQT_VERSION_STR
 
-import webview_intercepter
+from custom_ui import webview_intercepter
 from demo_thread import DemoThread
-from ui_main_window import Ui_MainWindow
+from ui.ui_main_window import Ui_MainWindow
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
 
-        self.setWindowIcon(PyQt5.QtGui.QIcon('./res/ico.png'))
+        project_path = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+        self.setWindowIcon(PyQt5.QtGui.QIcon(project_path + '/res/ico.ico'))
 
         self._demo_thread = DemoThread()
         self._demo_button.clicked.connect(self.on_demo_button_clicked)
